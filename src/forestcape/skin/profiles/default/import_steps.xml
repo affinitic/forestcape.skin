@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<import-steps>
+  <import-step id="forestcape.skin.setup"
+               version="20151013-01"
+               handler="forestcape.skin.setuphandler.setupSite"
+               title="Forestcape skin : setup portal">
+    <dependency step="skins" />
+    Setup Forestcape portal.
+  </import-step>
+</import-steps>

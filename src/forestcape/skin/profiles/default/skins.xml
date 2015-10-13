@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<object name="portal_skins"
+        allow_any="False"
+        cookie_persistence="False"
+        default_skin="Theme package for Forestcape website">
+
+    <object name="forestcape_skin_images"
+            meta_type="Filesystem Directory View"
+            directory="forestcape.skin:skins/forestcape_skin_images"/>
+    <object name="forestcape_skin_style"
+            meta_type="Filesystem Directory View"
+            directory="forestcape.skin:skins/forestcape_skin_style"/>
+
+    <skin-path name="Theme package for Forestcape website"
+               based-on="Sunburst Theme">
+        <layer name="forestcape_skin_images"
+               insert-after="custom"/>
+        <layer name="forestcape_skin_style"
+               insert-after="custom"/>
+
+    </skin-path>
+
+</object>
