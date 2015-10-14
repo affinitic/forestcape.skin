@@ -1,0 +1,115 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en"
+      metal:use-macro="here/main_template/macros/master"
+      i18n:domain="plone">
+
+<body>
+
+<!-- MENU -->
+
+    <div metal:fill-slot="main"
+         id="visual-portal-wrapper"
+         tal:define="portal_url context/@@plone_portal_state/portal_url;
+                     member context/@@plone_portal_state/member">
+        <header>
+            <div id="logo">
+                <a href="#accueil" data-scroll></a>
+            </div>
+            <nav id="menu-sup" class="nav-collapse">
+                <ul>
+                    <li class="menu-item active">
+                        <a href="#accueil" data-scroll>Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#about-us" data-scroll>About us</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#projects" data-scroll>Projects</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#contact" data-scroll>Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="one-content">
+            <section id="accueil"
+                     class="section s1">
+                <article class="article-section">
+                    <h1>Forestcape</h1>
+                    <h2><br /></h2>
+                    <h3>Gestion forestière entre l'Europe et l'Amérique du Sud</h3>
+                </article>
+            </section><!-- end accueil -->
+
+            <!--div id="separateur_01" class="separateur"></div-->
+
+            <section id="about-us"
+                     class="section s2">
+                <h1>About us</h1>
+                <article class="article-section">
+                    <div tal:define="content python: view.getPageText('about-us')"
+                         tal:content="structure content">
+                    </div>
+                    <div class="bouton-modifier"
+                         tal:condition="python: member.has_role('Manager')">
+                        <a href=""
+                           tal:attributes="href string:${portal_url}/about-us/edit">Modifier cette zone</a>
+                    </div>
+                </article>
+            </section><!-- end action -->
+
+            <div id="separateur_02" class="separateur"></div>
+
+            <section id="projects"
+                     class="section s3">
+                <h1>Projects</h1>
+                <article class="article-section">
+                    <div class="coll_one"
+                         tal:define="content python: view.getPageText('projects')"
+                         tal:content="structure content">
+                    </div>
+                    <div class="bouton-modifier"
+                         tal:condition="python: member.has_role('Manager')">
+                        <a href=""
+                           tal:attributes="href string:${portal_url}/projects/edit">Modifier cette zone</a>
+                    </div>
+                </article>
+            </section><!-- end hebergements -->
+
+            <div id="separateur_03" class="separateur"></div>
+
+            <section id="contact"
+                     class="section s4">
+                 <h1>Contact</h1>
+                 <article class="article-section">
+                     <div id="social-network" class="coll_one">
+                         <ul>
+                             <li><a href=""
+                                    id="facebook"
+                                    class="social"
+                                    target="_blank"></a></li>
+                             <li><a href=""
+                                    id="google-plus"
+                                    class="social"
+                                    target="_blank"></a></li>
+                             <li><a href=""
+                                    id="twitter"
+                                    class="social"
+                                    target="_blank"></a></li>
+                             <li><a href=""
+                                    id="pinterest"
+                                    class="social"
+                                    target="_blank"></a></li>
+                         </ul>
+                     </div>
+                 </article>
+            </section><!-- end partenaire1 -->
+        </div>
+
+        <script src="++resource++fixed-responsive-nav.js"></script>
+
+    </div><!-- end contener -->
+</body>
+</html>

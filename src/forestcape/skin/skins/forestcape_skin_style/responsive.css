@@ -1,0 +1,697 @@
+
+/*
+AFFINITIC JUIN 2015
+FORESTCAPE
+OCTOBRE 2015
+PLone Conf Bucarest
+
+responsive css
+
+http://mydevice.io/devices/
+*/
+
+/*** DESKTOP ***/
+@media screen and (min-width:1024px){
+        body{
+        font-size:16px;
+        line-height:24px;
+        }
+
+        #logo {
+        float:left;
+        position:absolute;
+        top:10px;
+        left:10px;
+        width:283px;
+        height:108px;
+        border-radius:6px;
+        background:url(logo_forestcape.png) no-repeat center center rgba(250,250,250,0.6);
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+        nav#menu-sup{
+        max-width:90%;
+        margin-left:180px;
+        /*border:1px solid #fff;*/
+        }
+
+        article.article-section{
+        width:70%;
+        margin:auto;
+        }
+
+        section#accueil article.article-section{
+        position:relative;
+        top:75%;
+        height:200px;
+        }
+
+        #accueil{
+        background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
+        }
+
+        #about-us,
+        #projects,
+        #contact{
+        min-height:100%;
+        margin:auto;
+        margin-top:50px;
+        }
+
+        #about-us.coll_one,
+        #projects.coll_one,
+        #contact.coll_one{
+        text-align:center;
+        border:1px solid #AAA;
+        }
+
+        #about-us h1,
+        #projects h1,
+        #contact h1{
+        height:50px;
+        background:#b1aa9d;
+        font-family:'quicksandbold', sans-serif;
+        font-size:1.6em;
+        color:#fbfcfd;
+        text-align:center;
+        letter-spacing:0.2em;
+        line-height:50px;
+        margin:auto !important;
+        }
+
+        #about-us p,
+        #projects p,
+        #contact p{
+        margin-bottom:24px;
+        text-align:left;
+        }
+
+        div#separateur_01{
+        background:url(background_01_about_us.jpg) center 0 no-repeat fixed;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+        div#separateur_02{
+        background:url(background_02_projects.jpg) center 0 no-repeat fixed;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+        div#separateur_03{
+        background:url(background_03_contact.jpg) center 0 no-repeat fixed;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px){
+        body{
+        font-size:16px;
+        line-height:24px;
+        }
+
+        #logo {
+        float:left;
+        position:absolute;
+        top:10px;
+        left:10px;
+        width:160px;
+        height:160px;
+        border-radius:6px;
+        background:url(logo_gdw.png) no-repeat center center transparent;
+         -webkit-background-size:cover;
+        background-size:cover;
+        }
+
+        nav#menu-sup{
+        max-width:90%;
+        margin-left:180px;
+        /*border:1px solid #00f;*/
+        }
+
+        article.article-section{
+        width:70%;
+        margin:auto;
+        min-height:100%;
+        }
+
+        section#accueil article.article-section{
+        position:relative;
+        top:60%;
+        height:400px;
+        }
+
+        section#accueil{
+        background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
+        }
+
+        section#accueil h1{
+        font-size:6vw;
+        }
+
+        section#accueil h2{
+        font-size:4vw;
+        }
+
+        section#accueil h3{
+        font-size:3vw;
+        }
+
+        #about-us,
+        #projects,
+        #contact{
+        height:800px;
+        }
+
+        #about-us.inner,
+        #projects.inner,
+        #contact.inner{
+        position:relative;
+        margin-top:50px;
+        }
+
+        #about-us.coll_one,
+        #projects.coll_one,
+        #contact.coll_one{
+        width:60%;
+        margin:0 auto;
+        text-align:center;
+        }
+
+        #about-us p,
+        #projects p,
+        #contact p{
+        margin-bottom:24px;
+        text-align:left;
+        }
+
+        h4{
+        height:50px;
+        line-height:50px;
+        font-size:1em;
+        }
+}
+
+
+/**** IPAD MODE PORTRAIT (vertical) ****/
+@media only screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:portrait){
+        body{
+        font-size:24px;
+        line-height:30px;
+        }
+
+        #logo {
+        float:left;
+        position:absolute;
+        top:3px;
+        left:5px;
+        width:50px;
+        height:50px;
+        border-radius:6px;
+        background:url(logo_gdw.png) no-repeat center center transparent;
+        -webkit-background-size:cover;
+        background-size:cover;
+        }
+
+        nav#menu-sup{
+        width:90%;
+        }
+
+        #accueil{
+        background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
+        }
+
+        .nav-collapse li {
+        text-align:center;
+        /*border-top:1px solid rgba(255, 255, 255, 0.5);*/
+        }
+
+        .nav-collapse li:first-child{
+        border-top:0;
+        }
+
+        .nav-collapse a {
+        font-size:15px;
+        font-weight:bold;
+        padding: 1.02em 13px;
+        }
+
+        section#accueil article.article-section{
+        position:relative;
+        top:70%;
+        height:400px;
+        }
+
+        section#accueil h1{
+        font-size:6vw;
+        }
+
+        section#accueil h2{
+        font-size:4vw;
+        }
+
+        section#accueil h3{
+        font-size:3vw;
+        }
+
+        #about-us,
+        #projects,
+        #contact,
+        #partenaire,
+        #a-propos,
+        #reseaux-sociaux{
+        min-height:700px;
+        }
+
+        #about-us.inner,
+        #projects.inner,
+        #contact.inner,
+        #partenaire.inner,
+        #a-propos.inner,
+        #reseaux-sociaux.inner{
+        position:relative;
+        margin-top:50px;
+        }
+
+        #about-us.coll_one,
+        #projects.coll_one,
+        #contact.coll_one,
+        #partenaire.coll_one,
+        #a-propos.coll_one,
+        #reseaux-sociaux.coll_one{
+        width:50%;
+        margin:0 auto;
+        text-align:center;
+        }
+
+        #about-us h1,
+        #projects h1,
+        #contact h1,
+        #partenaire h1,
+        #a-propos h1,
+        #reseaux-sociaux h1{
+        height:50px;
+        background:#b1aa9d;
+        font-family:'quicksandbold', sans-serif;
+        font-size:3vw;
+        color:#fbfcfd;
+        text-align:center;
+        letter-spacing:0.2em;
+        line-height:50px;
+        margin:auto !important;
+        }
+
+        #about-us p,
+        #projects p,
+        #contact p,
+        #partenaire p,
+        #a-propos p,
+        #reseaux-sociaux p{
+        margin-bottom:21px;
+        text-align:left;
+        }
+
+        #about-us a{
+        margin-bottom:42px;
+        display:block;
+        }
+
+        div#separateur_01{
+        background:url(background_01_about_us.jpg) center 0 no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+        div#separateur_02{
+        background:url(background_02_projects.jpg) center 0 no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+        div#separateur_03{
+        background:url(background_03_contact.jpg) center 0 no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+        h4{
+        height:50px;
+        line-height:50px;
+        font-size:1em;
+        }
+
+        article.article-section{
+        width:90%;
+        margin:auto;
+        }
+
+}
+
+
+/**** IPAD MODE PAYSAGE (horizontal) ****/
+@media only screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:landscape) {
+        body{
+        font-size:30px;
+        line-height:36px;
+        }
+
+        #logo {
+        float:left;
+        position:absolute;
+        top:3px;
+        left:5px;
+        width:50px;
+        height:50px;
+        border-radius:6px;
+        background:url(logo_gdw.png) no-repeat center center transparent;
+        -webkit-background-size:cover;
+        background-size:cover;
+        }
+
+        nav#menu-sup{
+        width:100%;
+        }
+
+        #accueil{
+        background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
+        }
+
+        .nav-collapse li {
+        text-align:center;
+        }
+
+        .nav-collapse li:first-child{
+        border-top:0;
+        }
+
+        .nav-collapse a {
+        font-size:16px;
+        font-weight:bold;
+        padding: 1.02em 2em;
+        }
+
+        section#accueil h1{
+        font-size:4vw;
+        }
+
+        section#accueil h2{
+        font-size:2.5vw;
+        }
+
+        section#accueil h3{
+        font-size:1.5vw;
+        }
+
+        section#accueil article.article-section{
+        position:relative;
+        top:75%;
+        height:230px;
+        }
+
+        #about-us,
+        #projects,
+        #contact{
+        min-height:700px;
+        width:95%;
+        /*border:1px solid #f00;*/
+        }
+
+        #about-us h1,
+        #projects h1,
+        #contact h1{
+        height:50px;
+        background:#b1aa9d;
+        font-family:'quicksandbold', sans-serif;
+        font-size:3vw;
+        color:#fbfcfd;
+        text-align:center;
+        letter-spacing:0.2em;
+        line-height:50px;
+        margin:auto !important;
+        }
+
+        #about-us.inner,
+        #projects.inner,
+        #contact.inner{
+        position:relative;
+        margin-top:50px;
+        }
+
+        #about-us.coll_one,
+        #projects.coll_one,
+        #contact.coll_one{
+        width:50%;
+        margin:0 auto;
+        text-align:center;
+        }
+
+        #about-us p,
+        #projects p,
+        #contact p{
+        margin-bottom:21px;
+        text-align:left;
+        }
+
+        #about-us a{
+        margin-bottom:42px;
+        display:block;
+        }
+
+        .separateur{
+        /*border:2px solid #f00;*/
+        }
+
+        div#separateur_01{
+        background:url(background_01_about_us.jpg) center 0 no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+        div#separateur_02{
+        background:url(background_02_projects.jpg) center 0 no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+        div#separateur_03{
+        background:url(background_03_contact.jpg) center 0 no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+        h4{
+        height:50px;
+        line-height:50px;
+        font-size:1em;
+        }
+
+        article.article-section{
+        width:80%;
+        margin:auto;
+        }
+
+}
+
+
+
+
+
+
+/**** MOBILE ****/
+@media screen and (max-device-width:480px){
+        body{
+        font-size:18px;
+        line-height:24px;
+        }
+
+        #logo {
+        float:left;
+        position:absolute;
+        top:3px;
+        left:5px;
+        width:50px;
+        height:50px;
+        border-radius:6px;
+        background:url(logo_gdw.png) no-repeat center 0 transparent;
+        -webkit-background-size:cover;
+        background-size:cover;
+        }
+
+        #accueil{
+        background:url(background_00_accueil_320x480.jpg)  no-repeat scroll;
+        background-position:center top;
+        }
+
+        .nav-collapse li {
+        text-align:center;
+        border-top:1px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .nav-collapse li:first-child{
+        border-top:0;
+        }
+
+        .nav-collapse a {
+        font-size:6vw;
+        }
+
+        #about-us h1,
+        #projects h1,
+        #contact h1{
+        height:50px;
+        background:#b1aa9d;
+        font-family:'quicksandbold', sans-serif;
+        font-size:6vw;
+        color:#fbfcfd;
+        text-align:center;
+        letter-spacing:0.2em;
+        line-height:50px;
+        margin:auto !important;
+        }
+
+        div#separateur_01,
+        div#separateur_02,
+        div#separateur_03{
+        display:none;
+        }
+
+        section#accueil article.article-section{
+        position:relative;
+        top:480px;
+        height:200px;
+        }
+
+        #accueil h1{
+        color:#f00;
+        font-size:6vw;
+        padding-bottom:5px;
+        }
+
+        #accueil h2{
+        font-size:4vw;
+        border-bottom:1px solid #ecf0f1;
+        }
+
+        #accueil h3{
+        font-size:3vw;
+        text-align:center;
+        }
+
+        #about-us .inner{
+        position:relative;
+        margin-top:50px;
+        }
+
+        #about-us .coll_one{
+        width:80%;
+        margin:0 auto;
+        text-align:center;
+        }
+
+        #about-us h5{
+        margin:21px 0;
+        text-align:center;
+        }
+
+        #about-us p{
+        margin-bottom:21px;
+        text-align:left;
+        }
+
+        #about-us .coll_text{
+        width:100%;
+        margin:42px 0 42px 0;
+        }
+
+        #about-us .coll_img{
+        display:none;
+        }
+
+
+        #about-us .right{
+        margin-right:0;
+        }
+
+        #about-us a{
+        margin-bottom:42px;
+        display:block;
+        }
+
+        #contact{
+        height:700px;
+        }
+
+        #contact .inner{
+        position:relative;
+        margin-top:50px;
+        }
+
+        #contact .coll_one{
+        width:80%;
+        margin:0 auto;
+        }
+
+        #contact h5{
+        margin-bottom:24px;
+        }
+
+        #contact ul.social{
+        margin-top:21px;
+        }
+
+        #contact .social li{
+        display:inline-block;
+        width:49%;
+        margin-right:0;
+        margin-top:21px;
+        }
+
+        #contact .social a{
+        position:relative;
+        left:50%;
+        margin-left:-15px;
+        }
+
+        .feedback-input{
+        line-height:14px;
+        }
+
+        #button-blue{
+        padding-top:17px;
+        padding-bottom:17px;
+        }
+
+        .ease{
+        height:52px;
+        margin-bottom:21px;
+        }
+
+        h4{
+        height:50px;
+        line-height:50px;
+        font-size:1em;
+        }
+}

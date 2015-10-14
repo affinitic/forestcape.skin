@@ -1,0 +1,35 @@
+/*
+AFFINITIC JUIN 2015
+GDW SOLIDARITE
+
+portal plone css
+*/
+
+
+#portal-column-content{
+margin:auto;
+margin-top:240px;
+}
+
+#content {
+width:75%;
+clear: both;
+font-size: 80%;
+line-height: 1.5em;
+margin:auto;
+}
+
+div.cell {
+clear:both;
+left:0px;
+position:relative;
+}
+
+
+html body#plonebrowser.forceColors.image-browser div#content.dialog-wrapper.icons-on div#browseimage_panel.row div#general_panel.cell.position-0.width-3:4{
+margin-left:0px;
+}
+
+#browseimage_panel{
+border:1px solid #0f0;
+}
