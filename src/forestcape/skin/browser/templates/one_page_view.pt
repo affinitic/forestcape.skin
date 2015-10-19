@@ -43,8 +43,6 @@
                 </article>
             </section><!-- end accueil -->
 
-            <!--div id="separateur_01" class="separateur"></div-->
-
             <section id="about-us"
                      class="section s2">
                 <h1>About us</h1>
@@ -60,7 +58,7 @@
                 </article>
             </section><!-- end action -->
 
-            <div id="separateur_02" class="separateur"></div>
+            <div id="separateur_01" class="separateur"></div>
 
             <section id="projects"
                      class="section s3">
@@ -78,7 +76,7 @@
                 </article>
             </section><!-- end hebergements -->
 
-            <div id="separateur_03" class="separateur"></div>
+            <div id="separateur_02" class="separateur"></div>
 
             <section id="contact"
                      class="section s4">
@@ -106,6 +104,9 @@
                      </div>
                  </article>
             </section><!-- end partenaire1 -->
+
+            <div id="separateur_03" class="separateur"></div>
+
         </div>
 
         <script src="++resource++fixed-responsive-nav.js"></script>

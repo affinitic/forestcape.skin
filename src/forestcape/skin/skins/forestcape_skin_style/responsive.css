@@ -51,6 +51,7 @@ http://mydevice.io/devices/
 
         #accueil{
         background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
+        background-size:cover;
         }
 
         #about-us,
@@ -154,6 +155,7 @@ http://mydevice.io/devices/
 
         section#accueil{
         background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
+        background-size:cover;
         }
 
         section#accueil h1{
@@ -230,6 +232,7 @@ http://mydevice.io/devices/
 
         #accueil{
         background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
+        background-size:cover;
         }
 
         .nav-collapse li {
@@ -391,6 +394,7 @@ http://mydevice.io/devices/
 
         #accueil{
         background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
+        background-size:cover;
         }
 
         .nav-collapse li {
@@ -695,3 +699,5 @@ http://mydevice.io/devices/
         font-size:1em;
         }
 }
+
+
