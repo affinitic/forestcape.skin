@@ -40,9 +40,6 @@
             <section id="accueil"
                      class="section s1">
                 <article class="article-section">
-                    <h1>Forestcape</h1>
-                    <h2><br /></h2>
-                    <h3>Gestion forestière entre l'Europe et l'Amérique du Sud</h3>
                     <div tal:define="content python: view.getPageText('accueil')"
                          tal:content="structure content">
                     </div>
