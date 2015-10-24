@@ -56,7 +56,8 @@ http://mydevice.io/devices/
 
         #about-us,
         #projects,
-        #contact{
+        #contact,
+        #reseaux-sociaux{
         min-height:100%;
         margin:auto;
         margin-top:50px;
@@ -64,14 +65,16 @@ http://mydevice.io/devices/
 
         #about-us.coll_one,
         #projects.coll_one,
-        #contact.coll_one{
+        #contact.coll_one,
+        #reseaux-sociaux.coll_one{
         text-align:center;
         border:1px solid #AAA;
         }
 
         #about-us h1,
         #projects h1,
-        #contact h1{
+        #contact h1,
+        #reseaux-sociaux h1{
         height:50px;
         background:#b1aa9d;
         font-family:'quicksandbold', sans-serif;
@@ -85,7 +88,8 @@ http://mydevice.io/devices/
 
         #about-us p,
         #projects p,
-        #contact p{
+        #contact p,
+        #reseaux-sociaux p{
         margin-bottom:24px;
         text-align:left;
         }
@@ -172,20 +176,23 @@ http://mydevice.io/devices/
 
         #about-us,
         #projects,
-        #contact{
+        #contact,
+        #reseaux-sociaux{
         height:800px;
         }
 
         #about-us.inner,
         #projects.inner,
-        #contact.inner{
+        #contact.inner,
+        #reseaux-sociaux.inner{
         position:relative;
         margin-top:50px;
         }
 
         #about-us.coll_one,
         #projects.coll_one,
-        #contact.coll_one{
+        #contact.coll_one,
+        #reseaux-sociaux.coll_one{
         width:60%;
         margin:0 auto;
         text-align:center;
@@ -193,7 +200,8 @@ http://mydevice.io/devices/
 
         #about-us p,
         #projects p,
-        #contact p{
+        #contact p,
+        #reseaux-sociaux p{
         margin-bottom:24px;
         text-align:left;
         }
@@ -431,7 +439,8 @@ http://mydevice.io/devices/
 
         #about-us,
         #projects,
-        #contact{
+        #contact,
+        #reseaux-sociaux{
         min-height:700px;
         width:95%;
         /*border:1px solid #f00;*/
@@ -453,14 +462,16 @@ http://mydevice.io/devices/
 
         #about-us.inner,
         #projects.inner,
-        #contact.inner{
+        #contact.inner,
+        #reseaux-sociaux.inner{
         position:relative;
         margin-top:50px;
         }
 
         #about-us.coll_one,
         #projects.coll_one,
-        #contact.coll_one{
+        #contact.coll_one,
+        #reseaux-sociaux.coll_one{
         width:50%;
         margin:0 auto;
         text-align:center;
@@ -468,7 +479,8 @@ http://mydevice.io/devices/
 
         #about-us p,
         #projects p,
-        #contact p{
+        #contact p,
+        #reseaux-sociaux p{
         margin-bottom:21px;
         text-align:left;
         }
@@ -564,7 +576,8 @@ http://mydevice.io/devices/
 
         #about-us h1,
         #projects h1,
-        #contact h1{
+        #contact h1,
+        #reseaux-sociaux h1{
         height:50px;
         background:#b1aa9d;
         font-family:'quicksandbold', sans-serif;

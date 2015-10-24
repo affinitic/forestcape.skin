@@ -18,16 +18,19 @@
             <nav id="menu-sup" class="nav-collapse">
                 <ul>
                     <li class="menu-item active">
-                        <a href="#accueil" data-scroll>Home</a>
+                        <a href="#accueil" data-scroll>Accueil</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#about-us" data-scroll>About us</a>
+                        <a href="#about-us" data-scroll>A propos de nous</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#projects" data-scroll>Projects</a>
+                        <a href="#projects" data-scroll>Projets</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#contact" data-scroll>Contacts</a>
+                        <a href="#contact" data-scroll>Nous contacter</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#reseaux-sociaux" data-scroll>Nous suivre</a>
                     </li>
                 </ul>
             </nav>
@@ -56,7 +59,7 @@
                            tal:attributes="href string:${portal_url}/about-us/edit">Modifier cette zone</a>
                     </div>
                 </article>
-            </section><!-- end action -->
+            </section><!-- end about-us -->
 
             <div id="separateur_01" class="separateur"></div>
 
@@ -74,13 +77,31 @@
                            tal:attributes="href string:${portal_url}/projects/edit">Modifier cette zone</a>
                     </div>
                 </article>
-            </section><!-- end hebergements -->
+            </section><!-- end projects -->
 
             <div id="separateur_02" class="separateur"></div>
 
             <section id="contact"
                      class="section s4">
-                 <h1>Contact</h1>
+                 <h1>Nous contacter</h1>
+                 <article class="article-section">
+                     <div class="coll_one"
+                          tal:define="content python: view.getPageText('contact')"
+                          tal:content="structure content">
+                     </div>
+                     <div class="bouton-modifier"
+                         tal:condition="python: member.has_role('Manager')">
+                        <a href=""
+                           tal:attributes="href string:${portal_url}/projects/edit">Modifier cette zone</a>
+                    </div>
+                 </article>
+            </section><!-- end contact -->
+
+            <div id="separateur_03" class="separateur"></div>
+
+            <section id="reseaux-sociaux"
+                     class="section s5">
+                 <h1>Nous suivre</h1>
                  <article class="article-section">
                      <div id="social-network" class="coll_one">
                          <ul>
@@ -102,10 +123,13 @@
                                     target="_blank"></a></li>
                          </ul>
                      </div>
+                     <div class="bouton-modifier"
+                         tal:condition="python: member.has_role('Manager')">
+                        <a href=""
+                           tal:attributes="href string:${portal_url}/reseaux-sociaux/edit">Modifier cette zone</a>
+                    </div>
                  </article>
-            </section><!-- end partenaire1 -->
-
-            <div id="separateur_03" class="separateur"></div>
+            </section><!-- end reseaux-sociaux -->
 
         </div>
 
