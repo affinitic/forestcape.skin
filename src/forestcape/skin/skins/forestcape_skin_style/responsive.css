@@ -76,11 +76,7 @@ http://mydevice.io/devices/
         #contact h1,
         #reseaux-sociaux h1{
         height:50px;
-        background:#b1aa9d;
-        font-family:'quicksandbold', sans-serif;
         font-size:1.6em;
-        color:#fbfcfd;
-        text-align:center;
         letter-spacing:0.2em;
         line-height:50px;
         margin:auto !important;
@@ -313,13 +309,9 @@ http://mydevice.io/devices/
         #a-propos h1,
         #reseaux-sociaux h1{
         height:50px;
-        background:#b1aa9d;
-        font-family:'quicksandbold', sans-serif;
-        font-size:3vw;
-        color:#fbfcfd;
-        text-align:center;
         letter-spacing:0.2em;
         line-height:50px;
+        font-size:1.6em;
         margin:auto !important;
         }
 
@@ -450,11 +442,7 @@ http://mydevice.io/devices/
         #projects h1,
         #contact h1{
         height:50px;
-        background:#b1aa9d;
-        font-family:'quicksandbold', sans-serif;
         font-size:3vw;
-        color:#fbfcfd;
-        text-align:center;
         letter-spacing:0.2em;
         line-height:50px;
         margin:auto !important;
@@ -579,11 +567,7 @@ http://mydevice.io/devices/
         #contact h1,
         #reseaux-sociaux h1{
         height:50px;
-        background:#b1aa9d;
-        font-family:'quicksandbold', sans-serif;
         font-size:6vw;
-        color:#fbfcfd;
-        text-align:center;
         letter-spacing:0.2em;
         line-height:50px;
         margin:auto !important;

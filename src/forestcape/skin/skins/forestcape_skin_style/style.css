@@ -178,6 +178,17 @@ margin:0 auto;
 background-size:cover;
 }
 
+#about-us h1,
+#projects h1,
+#contact h1,
+#reseaux-sociaux h1{
+height:50px;
+background:#b1aa9d;
+font-family:'quicksandbold', sans-serif;
+color:#fbfcfd !important;
+text-align:center;
+}
+
 #reseaux-sociaux #social-network{
 margin:auto;
 margin-top:20%;

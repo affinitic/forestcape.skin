@@ -104,25 +104,9 @@
             <section id="reseaux-sociaux"
                      class="section s5">
                  <article class="article-section">
-                     <div id="social-network" class="coll_one">
-                         <ul>
-                             <li><a href=""
-                                    id="facebook"
-                                    class="social"
-                                    target="_blank"></a></li>
-                             <li><a href=""
-                                    id="google-plus"
-                                    class="social"
-                                    target="_blank"></a></li>
-                             <li><a href=""
-                                    id="twitter"
-                                    class="social"
-                                    target="_blank"></a></li>
-                             <li><a href=""
-                                    id="pinterest"
-                                    class="social"
-                                    target="_blank"></a></li>
-                         </ul>
+                     <div class="coll_one"
+                          tal:define="content python: view.getPageText('reseaux-sociaux')"
+                          tal:content="structure content">
                      </div>
                      <div class="bouton-modifier"
                          tal:condition="python: member.has_role('Manager')">
