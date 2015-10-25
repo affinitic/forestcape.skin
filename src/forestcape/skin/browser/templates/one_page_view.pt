@@ -70,8 +70,7 @@
             <section id="projects"
                      class="section s3">
                 <article class="article-section">
-                    <div class="coll_one"
-                         tal:define="content python: view.getPageText('projects')"
+                    <div tal:define="content python: view.getPageText('projects')"
                          tal:content="structure content">
                     </div>
                     <div class="bouton-modifier"
@@ -87,8 +86,7 @@
             <section id="contact"
                      class="section s4">
                  <article class="article-section">
-                     <div class="coll_one"
-                          tal:define="content python: view.getPageText('contact')"
+                     <div tal:define="content python: view.getPageText('contact')"
                           tal:content="structure content">
                      </div>
                      <div class="bouton-modifier"
@@ -104,15 +102,27 @@
             <section id="reseaux-sociaux"
                      class="section s5">
                  <article class="article-section">
-                     <div class="coll_one"
-                          tal:define="content python: view.getPageText('reseaux-sociaux')"
-                          tal:content="structure content">
+                    <h1>Nous suivre</h1>
+                    <div id="social-network">
+                         <ul>
+                             <li><a href=""
+                                    id="facebook"
+                                    class="social"
+                                    target="_blank"></a></li>
+                             <li><a href=""
+                                    id="google-plus"
+                                    class="social"
+                                    target="_blank"></a></li>
+                             <li><a href=""
+                                    id="twitter"
+                                    class="social"
+                                    target="_blank"></a></li>
+                             <li><a href=""
+                                    id="pinterest"
+                                    class="social"
+                                    target="_blank"></a></li>
+                         </ul>
                      </div>
-                     <div class="bouton-modifier"
-                         tal:condition="python: member.has_role('Manager')">
-                        <a href=""
-                           tal:attributes="href string:${portal_url}/reseaux-sociaux/edit">Modifier cette zone</a>
-                    </div>
                  </article>
             </section><!-- end reseaux-sociaux -->
 

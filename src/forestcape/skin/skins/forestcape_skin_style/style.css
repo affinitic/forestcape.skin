@@ -114,10 +114,6 @@ border-bottom:1px solid #b1aa9d;
 margin-bottom:0.4em;
 }
 
-div#wrapper article.article-section div p{
-text-align:justify !important;
-}
-
 #accueil{
 width:95%;
 height:100%;
@@ -184,8 +180,7 @@ background-size:cover;
 #reseaux-sociaux h1{
 height:50px;
 background:#b1aa9d;
-font-family:'quicksandbold', sans-serif;
-color:#fbfcfd !important;
+font-family:'quicksandbold', sans-serif;color:#fbfcfd !important;
 text-align:center;
 }
 
@@ -273,11 +268,6 @@ background-position:center top;
 background-position:center bottom;
 }
 
-#a-propos h5{
-text-transform:uppercase;
-color:#ecf0f1;
-text-align:center;
-}
 
 
 

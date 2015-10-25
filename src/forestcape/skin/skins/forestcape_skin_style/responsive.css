@@ -21,9 +21,9 @@ http://mydevice.io/devices/
         float:left;
         position:absolute;
         top:10px;
-        left:10px;
-        width:283px;
-        height:108px;
+        left:60px;
+        width:150px;
+        height:178px;
         border-radius:6px;
         background:url(logo_forestcape.png) no-repeat center center rgba(250,250,250,0.6);
         -webkit-background-size:cover;
@@ -60,15 +60,7 @@ http://mydevice.io/devices/
         #reseaux-sociaux{
         min-height:100%;
         margin:auto;
-        margin-top:50px;
-        }
-
-        #about-us.coll_one,
-        #projects.coll_one,
-        #contact.coll_one,
-        #reseaux-sociaux.coll_one{
-        text-align:center;
-        border:1px solid #AAA;
+        margin-top:47px;
         }
 
         #about-us h1,
@@ -87,7 +79,6 @@ http://mydevice.io/devices/
         #contact p,
         #reseaux-sociaux p{
         margin-bottom:24px;
-        text-align:left;
         }
 
         div#separateur_01{
@@ -126,11 +117,11 @@ http://mydevice.io/devices/
         float:left;
         position:absolute;
         top:10px;
-        left:10px;
-        width:160px;
-        height:160px;
+        left:60px;
+        width:150px;
+        height:178px;
         border-radius:6px;
-        background:url(logo_gdw.png) no-repeat center center transparent;
+        background:url(logo_forestcape.png) no-repeat center center rgba(250,250,250,0.6);
          -webkit-background-size:cover;
         background-size:cover;
         }
@@ -177,21 +168,12 @@ http://mydevice.io/devices/
         height:800px;
         }
 
-        #about-us.inner,
-        #projects.inner,
-        #contact.inner,
-        #reseaux-sociaux.inner{
+        #about-us,
+        #projects,
+        #contact,
+        #reseaux-sociaux{
         position:relative;
-        margin-top:50px;
-        }
-
-        #about-us.coll_one,
-        #projects.coll_one,
-        #contact.coll_one,
-        #reseaux-sociaux.coll_one{
-        width:60%;
-        margin:0 auto;
-        text-align:center;
+        margin-top:47px;
         }
 
         #about-us p,
@@ -199,7 +181,6 @@ http://mydevice.io/devices/
         #contact p,
         #reseaux-sociaux p{
         margin-bottom:24px;
-        text-align:left;
         }
 
         h4{
@@ -222,10 +203,10 @@ http://mydevice.io/devices/
         position:absolute;
         top:3px;
         left:5px;
-        width:50px;
-        height:50px;
+        width:51px;
+        height:60px;
         border-radius:6px;
-        background:url(logo_gdw.png) no-repeat center center transparent;
+        background:url(logo_forestcape_50.png) no-repeat center center rgba(250,250,250,0.6);
         -webkit-background-size:cover;
         background-size:cover;
         }
@@ -275,38 +256,21 @@ http://mydevice.io/devices/
         #about-us,
         #projects,
         #contact,
-        #partenaire,
-        #a-propos,
         #reseaux-sociaux{
         min-height:700px;
         }
 
-        #about-us.inner,
-        #projects.inner,
-        #contact.inner,
-        #partenaire.inner,
-        #a-propos.inner,
-        #reseaux-sociaux.inner{
+        #about-us,
+        #projects,
+        #contact,
+        #reseaux-sociaux{
         position:relative;
-        margin-top:50px;
-        }
-
-        #about-us.coll_one,
-        #projects.coll_one,
-        #contact.coll_one,
-        #partenaire.coll_one,
-        #a-propos.coll_one,
-        #reseaux-sociaux.coll_one{
-        width:50%;
-        margin:0 auto;
-        text-align:center;
+        margin-top:47px;
         }
 
         #about-us h1,
         #projects h1,
         #contact h1,
-        #partenaire h1,
-        #a-propos h1,
         #reseaux-sociaux h1{
         height:50px;
         letter-spacing:0.2em;
@@ -318,11 +282,8 @@ http://mydevice.io/devices/
         #about-us p,
         #projects p,
         #contact p,
-        #partenaire p,
-        #a-propos p,
         #reseaux-sociaux p{
         margin-bottom:21px;
-        text-align:left;
         }
 
         #about-us a{
@@ -380,10 +341,10 @@ http://mydevice.io/devices/
         position:absolute;
         top:3px;
         left:5px;
-        width:50px;
-        height:50px;
+        width:51px;
+        height:60px;
         border-radius:6px;
-        background:url(logo_gdw.png) no-repeat center center transparent;
+        background:url(logo_forestcape_50.png) no-repeat center center rgba(250,250,250,0.6);
         -webkit-background-size:cover;
         background-size:cover;
         }
@@ -440,7 +401,8 @@ http://mydevice.io/devices/
 
         #about-us h1,
         #projects h1,
-        #contact h1{
+        #contact h1,
+        #reseaux-sociaux h1{
         height:50px;
         font-size:3vw;
         letter-spacing:0.2em;
@@ -448,21 +410,12 @@ http://mydevice.io/devices/
         margin:auto !important;
         }
 
-        #about-us.inner,
-        #projects.inner,
-        #contact.inner,
-        #reseaux-sociaux.inner{
+        #about-us,
+        #projects,
+        #contact,
+        #reseaux-sociaux{
         position:relative;
-        margin-top:50px;
-        }
-
-        #about-us.coll_one,
-        #projects.coll_one,
-        #contact.coll_one,
-        #reseaux-sociaux.coll_one{
-        width:50%;
-        margin:0 auto;
-        text-align:center;
+        margin-top:47px;
         }
 
         #about-us p,
@@ -470,7 +423,6 @@ http://mydevice.io/devices/
         #contact p,
         #reseaux-sociaux p{
         margin-bottom:21px;
-        text-align:left;
         }
 
         #about-us a{
@@ -536,10 +488,10 @@ http://mydevice.io/devices/
         position:absolute;
         top:3px;
         left:5px;
-        width:50px;
-        height:50px;
+        width:51px;
+        height:60px;
         border-radius:6px;
-        background:url(logo_gdw.png) no-repeat center 0 transparent;
+        background:url(logo_forestcape_50.png) no-repeat center 0 rgba(250,250,250,0.6);
         -webkit-background-size:cover;
         background-size:cover;
         }
@@ -601,17 +553,6 @@ http://mydevice.io/devices/
         text-align:center;
         }
 
-        #about-us .inner{
-        position:relative;
-        margin-top:50px;
-        }
-
-        #about-us .coll_one{
-        width:80%;
-        margin:0 auto;
-        text-align:center;
-        }
-
         #about-us h5{
         margin:21px 0;
         text-align:center;
@@ -645,14 +586,9 @@ http://mydevice.io/devices/
         height:700px;
         }
 
-        #contact .inner{
+        #contact{
         position:relative;
-        margin-top:50px;
-        }
-
-        #contact .coll_one{
-        width:80%;
-        margin:0 auto;
+        margin-top:47px;
         }
 
         #contact h5{
