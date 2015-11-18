@@ -29,9 +29,6 @@
                     <li class="menu-item">
                         <a href="#contact" data-scroll>Nous contacter</a>
                     </li>
-                    <li class="menu-item">
-                        <a href="#reseaux-sociaux" data-scroll>Nous suivre</a>
-                    </li>
                 </ul>
             </nav>
         </header>
@@ -98,34 +95,6 @@
             </section><!-- end contact -->
 
             <div id="separateur_03" class="separateur"></div>
-
-            <section id="reseaux-sociaux"
-                     class="section s5">
-                 <article class="article-section">
-                    <h1>Nous suivre</h1>
-                    <div id="social-network">
-                         <ul>
-                             <li><a href=""
-                                    id="facebook"
-                                    class="social"
-                                    target="_blank"></a></li>
-                             <li><a href=""
-                                    id="google-plus"
-                                    class="social"
-                                    target="_blank"></a></li>
-                             <li><a href=""
-                                    id="twitter"
-                                    class="social"
-                                    target="_blank"></a></li>
-                             <li><a href=""
-                                    id="pinterest"
-                                    class="social"
-                                    target="_blank"></a></li>
-                         </ul>
-                     </div>
-                 </article>
-            </section><!-- end reseaux-sociaux -->
-
         </div>
 
         <script src="++resource++fixed-responsive-nav.js"></script>
