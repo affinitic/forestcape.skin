@@ -122,7 +122,7 @@ http://mydevice.io/devices/
         height:178px;
         border-radius:6px;
         background:url(logo_forestcape.png) no-repeat center center rgba(250,250,250,0.6);
-         -webkit-background-size:cover;
+        -webkit-background-size:cover;
         background-size:cover;
         }
 
@@ -216,7 +216,7 @@ http://mydevice.io/devices/
         }
 
         #accueil{
-        background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
+        background:url(background_00_accueil_900x670.jpg) center 50px no-repeat;
         background-size:cover;
         }
 
@@ -354,8 +354,8 @@ http://mydevice.io/devices/
         }
 
         #accueil{
-        background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
-        background-size:cover;
+        background:url(background_00_accueil_900x670.jpg) center 50px no-repeat;
+        /*background-size:cover;*/
         }
 
         .nav-collapse li {
