@@ -355,7 +355,7 @@ http://mydevice.io/devices/
 
         #accueil{
         background:url(background_00_accueil_900x670.jpg) center 50px no-repeat;
-        /*background-size:cover;*/
+        background-size:cover;
         }
 
         .nav-collapse li {
