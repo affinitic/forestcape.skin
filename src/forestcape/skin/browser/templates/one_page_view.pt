@@ -43,7 +43,8 @@
                     <div class="bouton-modifier"
                          tal:condition="python: member.has_role('Manager')">
                         <a href=""
-                           tal:attributes="href string:${portal_url}/accueil/edit">Modifier cette zone</a>
+                           tal:define="page python:view.getPage('accueil')"
+                           tal:attributes="href string:${page/absolute_url}/edit">Modifier cette zone</a>
                     </div>
                 </article>
             </section><!-- end accueil -->
@@ -57,7 +58,8 @@
                     <div class="bouton-modifier"
                          tal:condition="python: member.has_role('Manager')">
                         <a href=""
-                           tal:attributes="href string:${portal_url}/about-us/edit">Modifier cette zone</a>
+                           tal:define="page python:view.getPage('about-us')"
+                           tal:attributes="href string:${page/absolute_url}/edit">Modifier cette zone</a>
                     </div>
                 </article>
             </section><!-- end about-us -->
@@ -73,7 +75,8 @@
                     <div class="bouton-modifier"
                          tal:condition="python: member.has_role('Manager')">
                         <a href=""
-                           tal:attributes="href string:${portal_url}/projects/edit">Modifier cette zone</a>
+                           tal:define="page python:view.getPage('projects')"
+                           tal:attributes="href string:${page/absolute_url}/edit">Modifier cette zone</a>
                     </div>
                 </article>
             </section><!-- end projects -->
@@ -89,7 +92,8 @@
                      <div class="bouton-modifier"
                          tal:condition="python: member.has_role('Manager')">
                         <a href=""
-                           tal:attributes="href string:${portal_url}/contact/edit">Modifier cette zone</a>
+                           tal:define="page python:view.getPage('contact')"
+                           tal:attributes="href string:${page/absolute_url}/edit">Modifier cette zone</a>
                     </div>
                  </article>
             </section><!-- end contact -->

@@ -32,11 +32,14 @@
     <copy attributes="xmlns lang xml:lang" content="/html" theme="/html" />
     <copy attributes="class id dir" content="/html/body" theme="/html/body" />
 
-    <drop css:content="#edit-bar" />
-
+<!--     <drop css:content="#edit-bar" />
+ -->
     <rules css:if-content="#one-content">
         <replace css:content-children="header"
                  css:theme-children="header" />
+        <replace css:content-children="#portal-languageselector"
+                 css:theme-children="#selecteur-langue" />
+
         <replace css:content-children="#one-content"
                  css:theme="#main-content"
                  css:if-content="#one-content"/>
