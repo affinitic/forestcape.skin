@@ -32,6 +32,10 @@ http://mydevice.io/devices/
         background-size:cover;
         }
 
+        #selecteur-langue{
+        left:400px;
+        }
+
         nav#menu-sup{
         max-width:90%;
         margin-left:180px;
@@ -118,8 +122,8 @@ http://mydevice.io/devices/
         position:absolute;
         top:10px;
         left:60px;
-        width:150px;
-        height:178px;
+        width:181px;
+        height:66px;
         border-radius:6px;
         background:url(logo_forestcape.png) no-repeat center center rgba(250,250,250,0.6);
         -webkit-background-size:cover;
@@ -203,8 +207,8 @@ http://mydevice.io/devices/
         position:absolute;
         top:3px;
         left:5px;
-        width:51px;
-        height:60px;
+        width:137px;
+        height:50px;
         border-radius:6px;
         background:url(logo_forestcape_50.png) no-repeat center center rgba(250,250,250,0.6);
         -webkit-background-size:cover;
@@ -341,8 +345,8 @@ http://mydevice.io/devices/
         position:absolute;
         top:3px;
         left:5px;
-        width:51px;
-        height:60px;
+        width:137px;
+        height:50px;
         border-radius:6px;
         background:url(logo_forestcape_50.png) no-repeat center center rgba(250,250,250,0.6);
         -webkit-background-size:cover;
@@ -488,13 +492,22 @@ http://mydevice.io/devices/
         position:absolute;
         top:3px;
         left:5px;
-        width:51px;
-        height:60px;
+        width:137px;
+        height:50px;
         border-radius:6px;
         background:url(logo_forestcape_50.png) no-repeat center 0 rgba(250,250,250,0.6);
         -webkit-background-size:cover;
         background-size:cover;
         }
+
+        #selecteur-langue{
+        margin-left:180px;
+        }
+
+        #selecteur-langue li a{
+        font-size:16px;
+        }
+
 
         #accueil{
         background:url(background_00_accueil_320x480.jpg)  no-repeat scroll;
