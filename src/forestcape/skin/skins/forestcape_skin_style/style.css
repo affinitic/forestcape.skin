@@ -66,10 +66,19 @@ cursor:pointer;
 #selecteur-langue{
 position:relative;
 left:400px;
-border:1px solid #fff;
-width:100px;
-height:50px;
+top:10px;
+width:150px;
 z-index:99999999999;
+}
+
+#selecteur-langue li{
+display:inline;
+text-transform:uppercase;
+margin:10px;
+}
+
+#selecteur-langue li a{
+color:#dbdfe0;      /*#ecf0f1;*/
 }
 
 .section {
