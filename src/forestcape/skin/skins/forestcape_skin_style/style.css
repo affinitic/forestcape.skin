@@ -63,16 +63,14 @@ height:100%;
 cursor:pointer;
 }
 
-
 #selecteur-langue{
 position:relative;
 left:400px;
-
 border:1px solid #fff;
 width:100px;
 height:50px;
+z-index:99999999999;
 }
-
 
 .section {
 width:100%;
