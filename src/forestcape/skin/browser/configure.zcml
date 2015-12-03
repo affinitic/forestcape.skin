@@ -37,7 +37,6 @@
         />
 
 
-
     <browser:page
         for="*"
         name="one_page_view"
@@ -46,5 +45,9 @@
         template="templates/one_page_view.pt"
         layer="..interfaces.ICustomTheme"
         />
+
+    <include package="z3c.jbot" file="meta.zcml" />
+    <browser:jbot directory="templates"
+                  layer="..interfaces.ICustomTheme" />
 
 </configure>
