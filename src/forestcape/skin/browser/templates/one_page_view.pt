@@ -8,6 +8,7 @@
 <!-- MENU -->
 
     <div metal:fill-slot="main"
+         i18n:domain="forestcape.skin"
          id="visual-portal-wrapper"
          tal:define="portal_url context/@@plone_portal_state/portal_url;
                      member context/@@plone_portal_state/member">
@@ -18,16 +19,16 @@
             <nav id="menu-sup" class="nav-collapse">
                 <ul>
                     <li class="menu-item active">
-                        <a href="#accueil" data-scroll>Accueil</a>
+                        <a href="#accueil" data-scroll i18n:translate="accueil">Accueil</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#about-us" data-scroll>A propos de nous</a>
+                        <a href="#about-us" data-scroll i18n:translate="a_propos_de_nous">A propos de nous</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#projects" data-scroll>Projets</a>
+                        <a href="#projects" data-scroll i18n:translate="projets">Projets</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#contact" data-scroll>Nous contacter</a>
+                        <a href="#contact" data-scroll i18n:translate="nous_contacter">Nous contacter</a>
                     </li>
                 </ul>
             </nav>
@@ -44,7 +45,8 @@
                          tal:condition="python: member.has_role('Manager')">
                         <a href=""
                            tal:define="page python:view.getPage('accueil')"
-                           tal:attributes="href string:${page/absolute_url}/edit">Modifier cette zone</a>
+                           tal:attributes="href string:${page/absolute_url}/edit"
+                            i18n:translate="modifier_cette_zone">Modifier cette zone</a>
                     </div>
                 </article>
             </section><!-- end accueil -->
@@ -59,7 +61,8 @@
                          tal:condition="python: member.has_role('Manager')">
                         <a href=""
                            tal:define="page python:view.getPage('about-us')"
-                           tal:attributes="href string:${page/absolute_url}/edit">Modifier cette zone</a>
+                           tal:attributes="href string:${page/absolute_url}/edit"
+                            i18n:translate="modifier_cette_zone">Modifier cette zone</a>
                     </div>
                 </article>
             </section><!-- end about-us -->
@@ -76,7 +79,8 @@
                          tal:condition="python: member.has_role('Manager')">
                         <a href=""
                            tal:define="page python:view.getPage('projects')"
-                           tal:attributes="href string:${page/absolute_url}/edit">Modifier cette zone</a>
+                           tal:attributes="href string:${page/absolute_url}/edit"
+                            i18n:translate="modifier_cette_zone">Modifier cette zone</a>
                     </div>
                 </article>
             </section><!-- end projects -->
@@ -93,7 +97,8 @@
                          tal:condition="python: member.has_role('Manager')">
                         <a href=""
                            tal:define="page python:view.getPage('contact')"
-                           tal:attributes="href string:${page/absolute_url}/edit">Modifier cette zone</a>
+                           tal:attributes="href string:${page/absolute_url}/edit"
+                            i18n:translate="modifier_cette_zone">Modifier cette zone</a>
                     </div>
                  </article>
             </section><!-- end contact -->

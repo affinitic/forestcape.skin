@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: forestcape.skin 0.1\n"
+"POT-Creation-Date: 2015-12-03 10:14+0000\n"
+"PO-Revision-Date: 2012-03-27 10:06+0100\n"
+"Last-Translator: Laurent Lasudry <laurent.lasudry@affinitic.be>\n"
+"Language-Team: Affinitic <info@affinitic.be>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: forestcape.skin\n"
+
+#. Default: "A propos de nous"
+#: ../browser/templates/one_page_view.pt:25
+msgid "a_propos_de_nous"
+msgstr "About us"
+
+#. Default: "Accueil"
+#: ../browser/templates/one_page_view.pt:22
+msgid "accueil"
+msgstr "Home"
+
+#. Default: "Modifier cette zone"
+#: ../browser/templates/one_page_view.pt:46
+msgid "modifier_cette_zone"
+msgstr "Edit this text"
+
+#. Default: "Nous contacter"
+#: ../browser/templates/one_page_view.pt:31
+msgid "nous_contacter"
+msgstr "Contact us"
+
+#. Default: "Projets"
+#: ../browser/templates/one_page_view.pt:28
+msgid "projets"
+msgstr "Projects"
+
